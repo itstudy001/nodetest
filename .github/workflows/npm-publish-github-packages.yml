@@ -14,7 +14,7 @@ jobs:
     # Ubuntu, Windows, MacOS를 지원
     runs-on: ubuntu-latest
 
-	    # node-version 과 같이 배열로 돼있으면 해당 원소를 순회하면서 작업이 반복해서 실행
+    # node-version 과 같이 배열로 돼있으면 해당 원소를 순회하면서 작업이 반복해서 실행
     # 응용해서 runs-on에 여러 OS에서 돌릴 수도 있음
     strategy:
       matrix:
